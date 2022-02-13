@@ -1,0 +1,86 @@
+@font-face {
+    font-family: norse-bold;
+    src: url("./Norse-Bold.otf");
+}
+.container{
+    display: flex;
+    flex-direction: row;
+}
+.leftside{
+    width: 30%;
+    height: 100vh;
+    position: relative;
+}
+.leaves{
+    position: absolute;
+    width: 100%;
+    height: 100vh;
+}
+.over-box{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 25vh;
+    width: 100%;
+    background-color: black;
+    opacity: 70%;
+    max-height: 150px;
+}
+.odin-image{
+    max-width: 130px;
+    max-height: 130px;
+}
+.odin{
+    color: white;
+    font-family: norse-bold;
+    font-size: 90px;
+}
+.rightside{
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    margin-left: 40px;
+    height: 100vh;
+}
+.top{
+    height: 40%;
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    justify-content: center;
+    top: 30%;
+    padding-right: 20%;
+}
+.middle{
+    height: 35vh;
+}
+input, label{
+    display: block;
+    font-size: 12px;
+    left: 20px;
+}
+.left{
+    float: left;
+    margin-right: 20px;
+}
+.clear{
+    clear: both;
+}
+.bottom{
+    height: 15vh;
+}
+a{
+    text-decoration: none;
+    color: green;    
+}
+button{
+    background-color: green;
+    border-radius: 5px;
+    height: 60px;
+    padding-left: 30px;
+    padding-right: 30px;
+    font-size: 16px;
+    
+}
